@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ed_username"
+        android:hint="Enter Your username"
+        android:textSize="20dp"
+        android:layout_margin="30dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ed_email"
+        android:layout_margin="30dp"
+        android:hint="Enter Email"
+        android:inputType="textEmailAddress"
+        android:textSize="20dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ed_password"
+        android:hint="Enter Password"
+        android:textSize="20dp"
+        android:layout_margin="30dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_register"
+            android:text="Register"
+            android:textSize="20dp"
+            android:layout_margin="20dp"
+            android:backgroundTint="@color/black"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_login"
+        android:text="Click Here To LoginLink"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_margin="20dp"
+        android:shadowRadius="@integer/material_motion_duration_long_1"
+        />
+
+
+</LinearLayout>
